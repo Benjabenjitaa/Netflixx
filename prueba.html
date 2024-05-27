@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmación de Prueba Gratuita</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body2">
+
+<div class="container2">
+    <h1 class="h1h2">¡Gracias por confirmar tu prueba gratuita!</h1>
+    <p>Por favor, completa tu registro para acceder a todas las funciones.</p>
+    
+    <form action="registro.php" method="POST">
+        <input type="text" name="nombre" placeholder="Nombre completo" required>
+        <input type="email" name="email" placeholder="Correo electrónico" required>
+        <input type="password" name="contraseña" placeholder="Contraseña" required>
+        <input type="password" name="confirmar_contraseña" placeholder="Confirmar contraseña" required>
+        
+        <h2 class="h1h2">Información de la tarjeta</h2>
+        <input type="text" name="nombre_tarjeta" placeholder="Nombre en la tarjeta" required>
+        <input type="text" name="numero_tarjeta" placeholder="Número de tarjeta" required>
+        <input type="text" name="fecha_vencimiento" placeholder="Fecha de vencimiento (MM/AA)" required>
+        <input type="text" name="cvv" placeholder="CVV" required>
+        
+        <button type="submit" class="button2">Registrarse</button>
+    </form>
+</div>
+
+</body>
+</html>
